@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SUBMIT FORM</title>
+    </head>
+    <body>
+        <form action="mailto:upretiganesh524@gmail.com" method="post" enctype="text/plain">
+            
+            <label>NAME</label>     <!--this name for our developer understandng-->
+            <input type="text" placeholder="enter your name" name="name1" value=""><br><br>                                        <!--this name value for showing user that name= xyz-->
+            <label>AGE</label>
+            <input type="number" name="age" value=""><br><br> <!--NAME ATTRIBUTE HUMKO BTYAEGA KI USER NE JO INFO BHRI HE USKE RESPECTIVE TITLES KYA HE....-->
+            <label>CONTACT NO.</label>
+            <input type="number" name="phone no." value=""><br><br>
+            <label>GENDER</label>
+            <input type="radio"  name="gender" value="male">MALE  <!--NAME SHOULD BE SAME SO THAT ONLY ONE GETS SELECTED OUT OF MANY options... AB DEKHO BNDA FORM BHREGA AUR HUMKO KAISE PTA LGEGA USNE KYA VALUE BHRA HE SO USKE LIYE GENDER ME VALUE KE PLACE PAR JO VALUE DALOGE USSE PTA LGEGA AGAR USNE MALE SELECT KIYA HOGA TO VALUE="MALE" AUR AGAR FEMALE TO VALUE="FEMALE" SHOW HO JAYEGA TUMKO........ ISLIYE VALUE ATTRIBUTE KAAM ME AYA HEI..-->
+            <input type="radio"  name="gender" value="female">FEMALE<br><br>
+            <label>CHOOSE YOUR FILES:<input type="file" multiple name="file"></label><br><br>
+           
+            <label>ENTER YOUR D.O.B <input type="date" name="D.O.B"></label><!--INPUT IS SELF CLOSING TAG-->
+            <br><br>
+            <label>ENTER YOUR EMAIL <input type="email"name="email" size="30"></label><br><br>
+            <label>ENTER PASSWORD <input type="password" name="psassword" ></label>
+            <br><br><label>ADJUST VOLUME:<input type="range" name="volume"></label>
+            <br><br><textarea rows="20" cols="40" placeholder="Enter More Description" name="description"></textarea>
+            <br><br><input type="submit" value="SUBMIT FORM">
+        </form>
+       
+
+
+    </body>
+
+</html>
